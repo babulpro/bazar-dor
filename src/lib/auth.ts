@@ -2,7 +2,7 @@ import { betterAuth } from "better-auth";
 import { MongoClient } from "mongodb";
 import { mongodbAdapter } from "@better-auth/mongo-adapter";
 
-const client = new MongoClient(process.env.MONGODB_URI as string,);
+const client = new MongoClient("https://bazar-dor-pearl.vercel.app");
 const db = client.db("mydb");
 
 export const auth = betterAuth({

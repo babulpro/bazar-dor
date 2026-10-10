@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Button, Link } from "@heroui/react";
 import Image from "next/image";
 import { signOut, useSession } from "@/lib/auth-client";
+import Link from "next/link";
 
 export default function TopNavbar() {
   const { data: session, isPending } = useSession();
