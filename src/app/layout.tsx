@@ -27,8 +27,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <body className="min-h-full flex flex-col">
         <header>
-          <TopNavbar />        
           
+          <TopNavbar/>
         </header>
         <main className="pt-16">
           {children}  

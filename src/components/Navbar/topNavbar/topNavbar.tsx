@@ -123,9 +123,9 @@ export default function TopNavbar() {
               <Link href="/sign-in" className="text-sm font-medium">
                 Login
               </Link>
-              <Button as={Link} href="/sign-up" size="sm" color="primary">
+              <Link  href="/sign-up">
                 Sign Up
-              </Button>
+              </Link>
             </>
           )}
         </div>
